@@ -1,6 +1,8 @@
 import React from 'react';
 import './style.css';
 import Card from '../../components/UI/Card'
+import BlogPost from '../../components/BlogPost';
+import Sidebar from '../../components/Sidebar';
 
 /**
 * @author
@@ -10,8 +12,8 @@ import Card from '../../components/UI/Card'
 const Post = (props) => {
   return(
     <section className="container">
-        <div className="blogPost">blogPost</Card>
-        <Card className="sidebar">sidebar</Card>
+        <BlogPost />
+        <Sidebar />
     </section>
    )
 
