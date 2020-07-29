@@ -10,7 +10,7 @@ import Card from '../../components/UI/Card'
 const Post = (props) => {
   return(
     <section className="container">
-        <Card className="blogPost">blogPost</Card>
+        <div className="blogPost">blogPost</Card>
         <Card className="sidebar">sidebar</Card>
     </section>
    )
