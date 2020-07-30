@@ -2,8 +2,8 @@
     "data" : [
         {
             "id": 1,
-            "blogCategory": "Featured",
-            "blogTitle" : "Fitness Mantra To Live Fit Life",
+            "blogCategory": "Stay Safe and Still have FUN",
+            "blogTitle" : "How to have a great Staycation in Louisville, KY during the COVID Pandemic",
             "slug": "fitness-mantra-to-live-fit-life",
             "postedOn": "July 21, 2016",
             "author": "Faiz Khan",
@@ -12,8 +12,8 @@
         },
         {
             "id" : 2,
-            "blogCategory": "Simple",
-            "blogTitle": "Beautiful & Special Moment",
+            "blogCategory": "Tour the City",
+            "blogTitle": "Louisville Murals",
             "slug": "beautiful-and-special-moment",
             "postedOn": "May 03, 2016",
             "author": "Rizwan Khan",
@@ -22,8 +22,8 @@
         },
         {
             "id": 3,
-            "blogCategory": "Simple",
-            "blogTitle": "Beauti lies within special",
+            "blogCategory": "Get Your Workouts In",
+            "blogTitle": "Outside Workout Areas, Louisville Loop Bike Ride and Hiking/Walking Trails",
             "slug": "beauti-lies-within-special",
             "postedOn": "Apr 02, 2017",
             "author": "Hasina Shaikh",
@@ -32,8 +32,8 @@
         },
         {
             "id": 4,
-            "blogCategory": "Featured",
-            "blogTitle": "Sliding My Way To Life",
+            "blogCategory": "See the Historal Sites",
+            "blogTitle": "Historical Sites tours",
             "slug": "sliding-my-way-to-life",
             "postedOn": "Jan 02, 2019",
             "author": "Rizwan Khan",
@@ -42,8 +42,8 @@
         },
         {
             "id": 5,
-            "blogCategory": "Fashion",
-            "blogTitle": "Memories From Last Summer",
+            "blogCategory": "Great City Views for picnics",
+            "blogTitle" : "Cherokee Park and Iroquois Park",
             "slug": "memories-from-last-summer",
             "postedOn": "Feb 21, 2018",
             "author": "Buland Khan",
