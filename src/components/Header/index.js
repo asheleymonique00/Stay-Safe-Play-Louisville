@@ -36,11 +36,11 @@ const Header = (props) => {
             <nav className="headerMenu">
                 <a href="#">Sign Up</a>
                 <a href="#">Login</a>
-                <a href="#">About Us</a>
+                {/* <a href="#">About Us</a> */}
             </nav>
-            <div>
+            {/* <div>
                 social media links
-            </div>
+            </div> */}
         </header>
    )
 

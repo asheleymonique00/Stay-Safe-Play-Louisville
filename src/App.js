@@ -6,6 +6,8 @@ import Hero from './components/Hero';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import ContactUs from './containers/ContactUs';
 import Post from './containers/Post';
+import SignUp from './containers/SignUp/SignUp';
+import Login from './containers/Login/Login';
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
         <Route path="/" exact component={Home}/>
         <Route path="/contact-us" component={ContactUs} />
         <Route path="/post/:postId" component={Post} />
+        <Route path="/signup" component={SignUp} />
+        <Route path="/login" component={Login} />
       </div>
     </Router>
 
