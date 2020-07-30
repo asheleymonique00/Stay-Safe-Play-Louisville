@@ -32,12 +32,12 @@ useEffect(() => {
               <p className="infoText">Hello my name is Asheley and Stay Safe & Play Louisville is a concierge service that will show you how to have a great Staycation in Louisville, KY during the COVID-19 Pandemic.</p>
           </div>
       </Card>
-
+{/* 
       <Card style={{ marginBottom: '20px', padding: '20px', boxSizing: 'border-box' }}>
         <div className="cardHeader">
           <span>Social Network</span>
         </div>
-      </Card>
+      </Card> */}
 
       <Card style={{ marginBottom: '20px', padding: '20px', boxSizing: 'border-box' }}>
         <div className="cardHeader">
