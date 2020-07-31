@@ -1,6 +1,7 @@
 // import React from 'react'
 import React, { Component } from 'react';
 import Card from '../../components/UI/Card';
+import {signupUser} from "../../Service/api_helper"
 
 /**
 * @author
@@ -42,7 +43,7 @@ class SignUp extends Component {
                 <h2>Sign Up</h2>
                 <input type="text" name="username" placeholder="Username" value={this.state.username} onChange={this.handleChange} />
                 <input type="password" name="password" placeholder="Password" value={this.state.password} onChange={this.handleChange} />
-                <input type="submit" value="Register" />
+                <input type="submit" value="SignUp" />
             </form>
             </Card>
         )

@@ -2,12 +2,17 @@
 // const api = axios.create({ baseURL: "http://localhost:3001" });
 // // =============Auth ==============//
 // // Route ---> localhost:3001/auth/register
-// export const registerUser = async (registerData) => {
-//   const userData = await api.post('/auth/register', registerData);
+// export const signupUser = async (signupData) => {
+//   const userData = await api.post('/auth/signup', signupData);
 //   localStorage.setItem('authToken', userData.data.token);
 //   api.defaults.headers.common.authorization = `Bearer ${userData.data.token}`;
 //   return userData.data.user;
 // }
+
+
+
+
+
 // // Route ---> localhost:3001/auth/login
 // export const loginUser = async (loginData) => {
 //   // Take the username and password the user entered in the login form
