@@ -28,7 +28,7 @@ const Navbar = (props) => {
         <ul className="navbarMenu">
             <li><NavLink to="/">Home</NavLink></li>
             {/* <li><NavLink to="/about-us">About Us</NavLink></li> */}
-            <li><NavLink to="/post">Posts</NavLink></li>
+            <li><NavLink to="/post/1">Posts</NavLink></li>
             <li><NavLink to="rsvp-us">RSVP With Us</NavLink></li> 
             <li><NavLink to="signup">Sign Up</NavLink></li>
             <li><NavLink to="login">Login</NavLink></li>           

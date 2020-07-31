@@ -1,6 +1,7 @@
 // import React from 'react'
 import React, { Component } from 'react';
 import Card from '../../components/UI/Card';
+import { withRouter } from 'react-router-dom';
 import {signupUser} from "../../Service/api_helper"
 
 /**
@@ -50,4 +51,4 @@ class SignUp extends Component {
     }
 }
 
-export default SignUp;
+export default withRouter(SignUp);
