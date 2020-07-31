@@ -35,7 +35,7 @@ const BlogPost = (props) => {
                 <div className="blogHeader">
                     <span className="blogCategory">{post.blogCategory}</span>
                     <h1 className="postTitle">{post.blogTitle}</h1>
-                    <p>Come have a picnic at Cherokee Park</p>
+                    <p>Come have a Staycation in Louisville</p>
                     <span className="postedBy">Created by Asheley Howard Brown</span>
                 </div>
 
