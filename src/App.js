@@ -9,7 +9,7 @@ import Post from './containers/Post';
 import SignUp from './containers/SignUp/SignUp';
 import Login from './containers/Login/Login';
 import Profile from './containers/profile'
-import { signUpUser, loginUser } from '../src/Service/api_helper';
+import { signUpUser, loginUser, putProfile } from '../src/Service/api_helper';
 
 
 // function App() {
@@ -53,6 +53,21 @@ class App extends Component {
     this.props.history.push('/profile')
   }
 
+  updateProfile = async (e, values) => {
+    e.preventDefault();
+    console.log(values)
+    const editUser = await putProfile(this.state.currentUser._id, values);
+    this.setState({
+        currentUser: editUser
+        // username: editUser.username,
+        // name: editUser.name,
+        // email: editUser.email,
+        // billing_address: editUser.billing_address,     
+        // phone: editUser.phone   
+        
+    })
+  }
+
 
   render() {
   return (
@@ -68,7 +83,7 @@ class App extends Component {
         <Route path="/login"
         render={() => {return <Login handleSubmit={this.handleLogin}/> }} />
         <Route path="/profile" 
-        render={() => {return <Profile currentUser={this.state.currentUser}/> }} />
+        render={() => {return <Profile currentUser={this.state.currentUser} updateProfile={this.updateProfile} /> }}  />
       </div>
     // </Router>
 

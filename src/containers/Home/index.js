@@ -30,6 +30,7 @@ const Home = props => {
             </div>
             <div style={{textAlign: 'center'}}>
               <h1>Louisville, KY</h1>
+              <p>Today would be a great day to fire, arrest or charge the cops who killed Breonna Taylor. No Justice, No Peace. Know Justice, Know Peace. #SayHerName #NJNPLou #BreonnaTaylor</p>
             </div>
       </section>
         </div>

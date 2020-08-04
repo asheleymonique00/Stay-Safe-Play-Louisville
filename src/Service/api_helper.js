@@ -21,7 +21,7 @@ export const signUpUser = async (signUpData) => {
   export const putProfile = async (id, values) => {    
     const updatedUser = await api.put(`/user/${id}`, values);
     console.log(updatedUser)
-    return updatedUser.data.user
+    return updatedUser.data;
 }
 
 // export const verifyUser = async () => {    
