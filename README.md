@@ -7,3 +7,6 @@ Stay Safe & Play Louisville concierge service will show you how to have a great 
 Target audience: all Louisville residents 
 Web Development Method: MERN
 MERN stack: MongoDB, Express, React and Node.js. 
+
+Stay Safe & Play Louisville.pptx
+https://trello.com/b/RIf3wkPy/capstone-project
