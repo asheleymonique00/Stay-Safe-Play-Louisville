@@ -6,15 +6,6 @@ import Card from '../../components/UI/Card';
 * @function RSVPUs
 **/
 
-// const RSVPUs = (props) => {
-//   return(
-//     <div>RSVPUs</div>
-//    )
-
-//  }
-
-// export default RSVPUs
-
 class RSVPUs extends Component {
   constructor(props) {
       super(props)
