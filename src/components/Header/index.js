@@ -34,8 +34,8 @@ const Header = (props) => {
   return(
         <header className="header">
             <nav className="headerMenu">
-                <a href="#">Sign Up</a>
-                <a href="#">Login</a>
+                {/* <a href="#">Sign Up</a>
+                <a href="#">Login</a> */}
                 {/* <a href="#">About Us</a> */}
             </nav>
             {/* <div>
