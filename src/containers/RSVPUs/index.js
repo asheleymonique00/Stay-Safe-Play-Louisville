@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Card from '../../components/UI/Card';
-
+import './style.css';
 /**
 * @author
 * @function RSVPUs
@@ -43,9 +43,9 @@ class RSVPUs extends Component {
               <input type="submit" value="RSVPUs" /> */}
           </form>
           </Card>
-          
-            <Card>
-            <div className="murals">
+          <div className="productsList">
+            {/* <Card> */}
+            <div className="half-card">
             <h2>Louisville Murals Tour</h2>
             <p>
             It features the faces of those killed by police or those who died in police custody like Breonna Taylor, George Floyd, David McAtee, Elijah McClain, and Sandra Bland. 
@@ -60,10 +60,10 @@ class RSVPUs extends Component {
               <li>Big K.R.I.T. Mural: A multi-colored mural celebrating the famous southern rapper Big K.R.I.T.</li>
             </ul>
             </div>
-          </Card>
+          {/* </Card>
 
-          <Card>
-            <div className="outdoors">
+          <Card> */}
+            <div className="half-card">
             <h2>Picnics and Other Outdoor Adventures</h2>
             <p>
             Anytime you head Downtown during lunchtime, you’ll find workers strolling by the river or hanging out on benches. On a nice day, it’s the perfect place for a casual lunch. 
@@ -71,30 +71,30 @@ class RSVPUs extends Component {
             There are also a couple of sandwich places nearby, or you can simply bring sandwiches from home. Spread out a blanket and enjoy the sight of barges creeping down river as you dine.
             </p>
             </div>
-          </Card>
+          {/* </Card>
 
-          <Card>
-            <div className="history">
+          <Card> */}
+            <div className="half-card">
             <h2>Historical Sites Tour</h2>
             <p>
             Frankfort Avenue corridor is a stretch of two-lane road through the Clifton and Crescent Hill neighborhoods, where one will stumble upon historic homes, restaurants, bars, shopping, a mysterious lack of Frankfurters, and other attractions leading right into the busy St. Matthews neighborhood. 
             But it’s in the areas between Mellwood and Stilz avenues where you'll find upscale bourbon bars, regular-scale bookstores, and solid restaurants like the Irish Rover, El Mundo and Blue Dog Bakery.
             </p>
             </div>
-          </Card>
+          {/* </Card>
 
-          <Card>
-            <div className="homes">
+          <Card> */}
+            <div className="half-card">
             <h2>Tour Old Louisville’s historic homes</h2>
             <p>
             Louisville is home to one of America’s largest collection of Victorian homes. The neighborhood, built in the late 1800s, remains a vibrant residential neighborhood, and it’s worth a couple of hours to simply walk around and admire the Victorian architecture saying things like "Are you sure this isn't Gothic Revivalist?" 
             You can walk down the pedestrian-only streets littered amongst the neighborhood, and you stop by the Old Louisville Information Center to secure a guided walking tour if you're into that. When you’re done, walk a few blocks to Old Louisville Brewery for a beer… or four.
             </p>
             </div>
-          </Card>
+          {/* </Card>
 
-          <Card>
-            <div className="ride">
+          <Card> */}
+            <div className="half-card">
             <h2>Louisville Loop Bike Ride</h2>
             <p>
             Louisville has public park facilities that could rival most cities, and the Parklands of Floyds Fork might be the cream of the crop. 
@@ -102,10 +102,10 @@ class RSVPUs extends Component {
             You can also just have a picnic and stroll alongside Beckley Creek. Basically do whatever the hell you want (as long as it's legal and you're not bugging anyone).
             </p>
             </div>
-          </Card>
+          {/* </Card>
 
-          <Card>
-            <div className="zip">
+          <Card> */}
+            <div className="half-card">
             <h2>Zip line at Louisville Mega Cavern</h2>
             <p>
             You go on vacation, you see zip lines. And Louisville is no different. Except here, the best ones are underground… in a giant cavern. 
@@ -113,9 +113,9 @@ class RSVPUs extends Component {
             It's surely a new way to experience the "best view in town."
             </p>
             </div>
-          </Card>
+          {/* </Card> */}
         </div>
-
+        </div>
           
       )
   }
