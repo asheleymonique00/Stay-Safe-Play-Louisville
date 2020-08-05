@@ -27,9 +27,11 @@ class RSVPUs extends Component {
       return (
         <div>
           <Card>
+            <div className="center">
           <form onSubmit={(e) => this.props.handleSubmit(e, this.state)}>
               <h2>Choose your Staycation Destintation</h2>
               <label for="StaycationDest">Staycation Adventures:</label>
+              <br></br>
                 <select name="staycations" id="staycations">
                   <option value="LouisvilleMurals">Louisville Murals Tour</option>
                   <option value="Picnics">Picnics and other Outdoor Adventures</option>
@@ -42,6 +44,7 @@ class RSVPUs extends Component {
               <input type="password" name="password" placeholder="Password" value={this.state.password} onChange={this.handleChange} />
               <input type="submit" value="RSVPUs" /> */}
           </form>
+          </div>
           </Card>
           <div className="productsList">
             {/* <Card> */}
@@ -70,6 +73,13 @@ class RSVPUs extends Component {
             Take your crew here during a weekday, and you’ll find a slew of food trucks near the Humana Waterside building, just steps from the Mighty Ohio. 
             There are also a couple of sandwich places nearby, or you can simply bring sandwiches from home. Spread out a blanket and enjoy the sight of barges creeping down river as you dine.
             </p>
+            <ul>
+              <li>Cherokee Park</li>
+              <li>Fairmount Falls Park</li>
+              <li>Iroquois Park</li>
+              <li>Long Run Park</li>
+              <li>Shawnee Park</li>
+            </ul>
             </div>
           {/* </Card>
 

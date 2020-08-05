@@ -41,10 +41,11 @@ class SignUp extends Component {
         return (
             <Card>
             <form onSubmit={(e) => this.props.handleSubmit(e, this.state)}>
-                <h2>Sign Up</h2>
+                <div className="center"><h2>Sign Up</h2>
                 <input type="text" name="username" placeholder="Username" value={this.state.username} onChange={this.handleChange} />
                 <input type="password" name="password" placeholder="Password" value={this.state.password} onChange={this.handleChange} />
                 <input type="submit" value="SignUp" />
+                </div>
             </form>
             </Card>
         )

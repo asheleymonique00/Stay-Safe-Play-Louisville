@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import { Route, Link, withRouter } from 'react-router-dom';
-import { putProfile } from '../Service/api_helper'
+import { putProfile } from '../Service/api_helper';
 import Card from '../components/UI/Card';
+
 
 
 /**
@@ -50,11 +51,14 @@ class Profile extends Component {
   return(
       
     <div>                      
-    <div>Profile Page</div>
+    
+    <div>
+        <Card>
+        <div className="center"><h2>Profile Page</h2>
     <div className="profilePage">
             <div className="userInfo">
-                <h2>Username: {this.props.currentUser.username}</h2>
-                <h2>Name: {this.props.currentUser.name}</h2>
+                <h3>Username: {this.props.currentUser.username}</h3>
+                <h3>Name: {this.props.currentUser.name}</h3>
                 <h3>Email: {this.props.currentUser.email}</h3>
                 <h3>billing_address: {this.props.currentUser.billing_address}</h3>
                 <h3>phone: {this.props.currentUser.phone}</h3>                
@@ -67,8 +71,11 @@ class Profile extends Component {
                 <input type="text" name="phone" placeholder="phone" value={this.state.phone} onChange={this.handleChange}/><br></br>
                 <input type="text" name="billing_address" placeholder="billing_address" value={this.state.billing_address} onChange={this.handleChange}/><br></br>
                 <input type="submit" value="Submit Post" />
-           </form>           
-    </div>     
+           </form>
+           </div>           
+    </div>
+    </Card>     
+    </div>
     </div>
     
   )
